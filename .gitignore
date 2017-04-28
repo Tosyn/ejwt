@@ -1,6 +1,13 @@
-.eunit
-deps
+# Add any directories, files, or patterns you don't want to be tracked by version control
+/.eunit/
+/deps/
 *.o
 *.beam
 *.plt
-erl_crash.dump
+/erl_crash.dump
+/ebin/
+/rel/example_project
+.concrete/DEV_MODE
+.rebar
+/log/
+*.swp

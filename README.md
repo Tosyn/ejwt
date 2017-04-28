@@ -34,4 +34,3 @@ You should get back the original claims Jterm, plus expiration claim:
         {<<"user_id">>,<<"bob123">>},
         {<<"user_name">>,<<"Bob">>}
     ]}
-

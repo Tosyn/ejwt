@@ -7,9 +7,9 @@
                   kernel,
                   stdlib,
                   crypto,
-		  jiffy,
-		  base64url,
-		  ej
+            		  jiffy,
+            		  base64url,
+                  ej
                  ]},
   {env, []}
  ]}.

@@ -130,7 +130,7 @@ jwt_add_exp(ClaimSetJterm, ExpirationSeconds) ->
             (Ts - (Ts rem (24*3600))) + ExpirationSeconds0;
         _ ->
             epoch() + ExpirationSeconds
-    end,        
+    end,
     {[{<<"exp">>, Expiration} | ClaimsSet]}.
 
 jwt_hs256_iss_sub(Iss, Sub, ExpirationSeconds, Key) ->
